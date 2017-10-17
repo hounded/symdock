@@ -9,6 +9,7 @@ services:
       volumes:
         - ${APPLICATION}:/var/www/paint
         - ${APPLICATION2}:/var/www/wdc
+        - ${APPLICATION3}:/var/www/symfonyBase
 
 ### Workspace Utilities Container ###########################
 
